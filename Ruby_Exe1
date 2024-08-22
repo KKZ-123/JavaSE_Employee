@@ -1,0 +1,13 @@
+class Exe1
+  def self.calculate_total
+    i = 1
+    total = 0
+    while i <= 10
+      total +=i
+      i+=1
+    end
+    puts "Total Value is #{total}" 
+  end  
+end
+
+Exe1.calculate_total
