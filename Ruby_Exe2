@@ -1,0 +1,15 @@
+class Exe2
+  def self.fact(x)
+    result = 1
+    if x == 0
+      result = 1
+    else  
+      while x > 0
+        result *= x
+        x -= 1
+      end    
+    end   
+    puts "Factorial Value is #{result}"    
+  end 
+end  
+Exe2.fact(0)
