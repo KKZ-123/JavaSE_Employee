@@ -1,0 +1,13 @@
+class Exe3
+  def self.multipleTable(x)
+    y = 1
+    z = 1
+    while y <= 10
+      z = x * y 
+      puts "#{x} X #{y} = #{z}" 
+      y+=1
+    end
+  end  
+end  
+
+Exe3.multipleTable(2)
